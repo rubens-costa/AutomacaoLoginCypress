@@ -5,7 +5,7 @@ import Login from '../support/pages/Login';
 import Registrar from '../support/pages/Registrar';
 var Chance = require("chance");
 var chance = new Chance();
-describe('GGAS', () => {
+describe('Test Plan', () => {
   Cypress.on('uncaught:exception', (err, runnable) => { return false; });
 
   beforeEach(() => {
